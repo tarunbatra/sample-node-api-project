@@ -1,0 +1,16 @@
+{
+  "name": "napi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-gyp configure && node-gyp build",
+    "start": "node index.js"
+  },
+  "author": "Tarun Batra <tarun.batra00@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "node-gyp": "^8.1.0"
+  }
+}
